@@ -1,0 +1,88 @@
+.following {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.error {
+    color: red;
+}
+
+.campaign-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campaign-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    width: calc(33% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.campaign-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.campaign-item h3 {
+    margin: 10px 0;
+}
+
+.campaign-item p {
+    color: #555;
+}
+
+.campaign-item button {
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.campaign-item button:hover {
+    background-color: #ff3d2e;
+}
+
+
+.no-following {
+    text-align: center;
+    padding: 50px 20px;
+    color: #555;
+}
+
+.no-following .illustration {
+    font-size: 80px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.no-following h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.no-following p {
+    font-size: 18px;
+    color: #777;
+}
+
+.campaign-item button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.campaign-item button:hover {
+    background-color: #d32f2f;
+}

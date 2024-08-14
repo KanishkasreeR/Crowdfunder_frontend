@@ -1,0 +1,69 @@
+.about-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about-intro {
+  margin-bottom: 20px;
+}
+
+.about-intro h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.about-intro p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-our-mission,
+.about-how-it-works,
+.about-contact {
+  margin-bottom: 40px;
+}
+
+.about-our-mission h2,
+.about-how-it-works h2,
+.about-contact h2 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+.about-our-mission p,
+.about-how-it-works p,
+.about-contact p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-how-it-works ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.about-how-it-works li {
+  margin-bottom: 20px;
+}
+
+.about-how-it-works h3 {
+  font-size: 1.4em;
+  color: #333;
+}
+
+.about-contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-contact a:hover {
+  text-decoration: underline;
+}
+
+.campaign-description img {
+  width: 16px;
+  height: 16px;
+  object-fit: cover; 
+}

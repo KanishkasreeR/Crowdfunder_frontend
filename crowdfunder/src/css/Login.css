@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f8f9fa;
+}
+
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 90px); 
+    margin-top: 15px;
+}
+
+.login-container {
+    display: flex;
+    width: 70%; 
+    max-width: 1200px;
+    height: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 20px; 
+}
+
+.left-panel1, .right-panel1 {
+    flex: 1;
+}
+
+.left-panel1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+.right-panel1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    overflow: hidden; 
+}
+
+.welcome-image1 {
+    width: 630px;
+    height: 630px;
+    object-fit: cover; 
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-icon1 {
+    position: absolute;
+    left: 15px;
+    color: lightgrey; 
+    font-size: 18px;
+}
+
+.input-container1 input {
+    width: 100%; 
+    max-width: 100%; 
+    padding: 10px 10px 10px 40px; 
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.toggle-password {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    color: black; 
+    font-size: 18px;
+}
+
+.submit-button {
+    background-color: #394c67; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; 
+}
+
+.message1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.register-link a {
+    color: #344967; 
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

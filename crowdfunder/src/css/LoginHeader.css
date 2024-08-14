@@ -1,0 +1,43 @@
+.start-btn {
+    text-decoration: none;
+    background-color: #ff0066;
+    color: #fff;
+    border: 1px solid #ff0066;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .start-btn:hover {
+    background-color: #e6005c;
+  }
+  
+  .sign-in-btn {
+    text-decoration: none;
+    background-color: #0077b6;
+    color: #fff;
+    border: 1px solid #0077b6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #0077b6;
+    color: #fff;
+  }
+
+  .logo a{
+    text-decoration: none;
+  }
+
+  .logo-crowd {
+    color: rgba(0, 0, 255, 0.51); 
+    font-weight: bold;
+  }
+  
+  .logo-funder {
+    color: #ff0066; 
+  }
